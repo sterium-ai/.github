@@ -28,10 +28,10 @@ light that decides where monsters spawn, and a soundtrack generated live. TypeSc
 whole browser demo is **one 280 KB file**. [Play the demo](https://play.steriumai.dev) · full game coming to Steam,
 itch.io and Google Play.
 
-### [stack-and-wrap](https://github.com/sterium-ai/stack-and-wrap) — a 3D prototype
+### [stack-and-wrap](https://github.com/sterium-ai/stack-and-wrap) — a 3D game in development
 A mobile-first gift-shop tycoon in Three.js: stack boxes, wrap presents, automate the shop, unlock new zones. Exact
-economy numbers with animated transfers, pooled visuals, quality tiers for phones, and 351 logic checks that run in
-plain Node. [Play it in the browser](https://sterium-ai.github.io/stack-and-wrap/).
+economy numbers with hundreds of animated items, pooled visuals, quality tiers for phones, and 351 logic checks that
+run in plain Node. The repository shows the design and architecture with excerpts of the source.
 
 ## How the work is done
 - **Contracts over trust:** tasks carry acceptance commands; nothing merges until the host has run them.
