@@ -30,7 +30,7 @@ itch.io and Google Play.
 
 ### [stack-and-wrap](https://github.com/sterium-ai/stack-and-wrap) — a 3D prototype
 A mobile-first gift-shop tycoon in Three.js: stack boxes, wrap presents, automate the shop, unlock new zones. Exact
-economy numbers with animated transfers, pooled visuals, quality tiers for phones, and 280 logic checks that run in
+economy numbers with animated transfers, pooled visuals, quality tiers for phones, and 351 logic checks that run in
 plain Node. [Play it in the browser](https://sterium-ai.github.io/stack-and-wrap/).
 
 ## How the work is done
