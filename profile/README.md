@@ -16,6 +16,10 @@ and GitHub Copilot** as interchangeable workers across five roles, and adds the 
 - the supervisor **re-runs the acceptance checks itself** and merges **only the exact commit that was reviewed**
 - a bounded repair ladder, crash recovery and quota failover between providers
 - 582 automated checks. In its case study it merged **124 pull requests in 13 days** on a Godot game.
+- **[The harness](https://github.com/sterium-ai/agent-orchestrator/blob/main/docs/harness/README.md):** the reference
+  architecture behind both ways of running it (unattended, and up to three supervised tasks in parallel), in seven
+  layers, with a [setup guide](https://github.com/sterium-ai/agent-orchestrator/blob/main/docs/harness/SETUP.md) and
+  starter templates for using it on your own project.
 
 ### [deepholm](https://github.com/sterium-ai/deepholm) — built by the pipeline
 A deterministic colony simulation in Godot 4, written and reviewed almost entirely by the agents above. Seeded,
@@ -37,3 +41,6 @@ run in plain Node. The repository shows the design and architecture with excerpt
 - **Contracts over trust:** tasks carry acceptance commands; nothing merges until the host has run them.
 - **No self-review:** an agent never approves its own code; a different provider reviews every change.
 - **Decisions are written down:** architecture decision records, size budgets and schemas keep many agents consistent.
+- **Mechanical before paid:** scripts settle scope, budgets and stale branches before a model is asked to judge.
+- **Context is a budget:** scoped briefs, early compaction and a size ceiling per task; cost follows turns × context,
+  not difficulty.
